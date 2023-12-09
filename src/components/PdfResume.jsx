@@ -5,7 +5,7 @@ function PdfResume(){
     return(
         <div className='resume-image'>
             <iframe onClick="window.open('path', '_blank', 'fullscreen=yes'); return false;"
- width='800' height='800' src="https://docs.google.com/document/d/e/2PACX-1vSWz9mblXoObYCN-4PfE-6MXQyprqocw3Ff3BBh_IW9pwxgVgPWeLVCGNEf1BDXerz3Hp0_csHGeN5R/pub"></iframe>
+ width='800' height='800' src="https://docs.google.com/document/d/e/2PACX-1vQzS8Y4Sb6J5geDF6B2G_hUv8bLngUkjuHLb8WTTSV7dctcSFqDqgOWVt2yvjPAE4PDY0NfNnvmkt0R/pub"></iframe>
 </div>
     )
 }
