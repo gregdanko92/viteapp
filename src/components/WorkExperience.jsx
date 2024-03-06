@@ -34,8 +34,8 @@ function WorkExperience() {
           <div className='sub-heading'>Full Stack Software Engineer, CurieAI, Santa Clara, CA</div> <div className='sub-heading'>01/2022-Present</div>
         </div>
         <div className='job-description'>
-          <p>Designed and implemented various features including video-calling, notifications, and messaging used by our clinician-focused web application using {getSkillFormatting(['TypeScript/JavaScript', 'React', 'Redux', 'WebGL', 'Node.js', 'MongoDB', 'HTML', 'CSS'])} </p>
-          <p>Designed and implemented various features including video-calling, notifications, and messaging to our patient-focused mobile applications using {getSkillFormatting(['TypeScript/JavaScript', 'React-Native', 'WebGL', 'Android Studio', 'Gradle', ' Node.js', 'MongoDB', 'HTML', 'CSS'])} </p>
+          <p>Designed and implemented various features including video-calling, notifications, and messaging used by our clinician-focused web application using {getSkillFormatting(['TypeScript/JavaScript', 'React', 'Redux', 'Node.js', 'MongoDB', 'HTML', 'CSS'])} </p>
+          <p>Designed and implemented various features including video-calling, notifications, and messaging to our patient-focused mobile applications using {getSkillFormatting(['TypeScript/JavaScript', 'React-Native', 'Android Studio', 'Gradle', ' Node.js', 'MongoDB', 'HTML', 'CSS'])} </p>
           <p>Designed and implemented multiple RESTful API services in support of both our patient-focused mobile applications, as well as our clinician-focused browser applications.</p>
           <p>Developed a tool for regulatory bodies such as the FDA, as well as prospective clients to validate the AI behind our app using {getSkillFormatting(['TypeScript/JavaScript', 'React', 'Redux', 'Node.js', 'MongoDB', 'HTML', 'CSS'])}  </p>
           <p>Participated in product design discussions, collaborating with clinical user base in order to translate product feedback into platform changes.</p>
