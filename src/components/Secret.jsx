@@ -11,7 +11,7 @@ function Secret(){
     return(
         <div className='about-content'>
             <div className='heading-text'>Secret Page</div>
-            Welcome to the secret page, i'm still figuring out what to do with this thing...
+            Welcome to the secret page, I'm still figuring out what to do with this thing...
         </div>
     )
 }
