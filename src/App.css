@@ -14,12 +14,13 @@ a:visited {
 }
 body {
   background-color:#f1f2f6;
-  color:  #34431d;;
+  color:  #34431d;
   padding:1%;
 }
 
 h1{
-  color:#34431d;;
+  color:#34431d;
+  line-height:0.1;
 }
 
 .site-header {
