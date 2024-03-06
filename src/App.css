@@ -16,7 +16,6 @@ body {
   background-color:#f1f2f6;
   color:  #34431d;;
   padding:1%;
-  min-width:1100px;
 }
 
 h1{
@@ -352,4 +351,7 @@ p{
 
 .secret-link:visited{
   color: #34431d;
+}
+.page-container{
+
 }
