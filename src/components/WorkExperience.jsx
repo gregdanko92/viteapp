@@ -25,8 +25,15 @@ function WorkExperience() {
 
   return (
     <div className='about-content'>
-      <div className='heading-text'>
-        <>Professional Experience</>
+      <div className='heading-text-work-exp'>
+        <>Engineering Experience</>
+        <div className='resume-links-container'>
+          <a  className='resume-link' href="/gregdanko_resume.pdf" target="_blank" rel="noopener noreferrer">
+             Resume
+          </a>
+          
+        </div>
+
       </div>
 
       <div className="one-job">
@@ -34,11 +41,23 @@ function WorkExperience() {
           <div className='sub-heading'>Full Stack Software Engineer, CurieAI, Santa Clara, CA</div> <div className='sub-heading'>01/2022-Present</div>
         </div>
         <div className='job-description'>
-          <p>Designed and implemented various features including video-calling, notifications, and messaging used by our clinician-focused web application using {getSkillFormatting(['TypeScript/JavaScript', 'React', 'Redux', 'Node.js', 'MongoDB', 'HTML', 'CSS'])} </p>
-          <p>Designed and implemented various features including video-calling, notifications, and messaging to our patient-focused mobile applications using {getSkillFormatting(['TypeScript/JavaScript', 'React-Native', 'Android Studio', 'Gradle', ' Node.js', 'MongoDB', 'HTML', 'CSS'])} </p>
-          <p>Designed and implemented multiple RESTful API services in support of both our patient-focused mobile applications, as well as our clinician-focused browser applications.</p>
-          <p>Developed a tool for regulatory bodies such as the FDA, as well as prospective clients to validate the AI behind our app using {getSkillFormatting(['TypeScript/JavaScript', 'React', 'Redux', 'Node.js', 'MongoDB', 'HTML', 'CSS'])}  </p>
-          <p>Participated in product design discussions, collaborating with clinical user base in order to translate product feedback into platform changes.</p>
+          <p>Led our engineering effort to create a continuous symptom monitoring application for patients experiening respiratory malady in order to track their progress clinically.</p>
+          <div className='relevant-skills'> {getSkillFormatting(['Kotlin', 'Android SDK', 'Jetpack Compose', 'Gradle', 'MongoDB', 'Firebase', 'Tensorflow'])} </div>
+
+          <p>Led our engineering effort to create and launch a modular SMS microservice to be used by our clinicians to communicate with patients, as well as allowing for patients to confirm or reschedule their appointments via text message
+          </p>
+          <div className='relevant-skills'>{getSkillFormatting(['Javascript', 'Node.js', 'MongoDB', 'Twilio', 'Kafka', 'Elasticsearch', 'AWS', 'Athena EHR'])}</div>
+
+            <p>Designed and implemented various features including video-calling, notifications, messaging, as well as the development of a pulmonary test feature using an external bluetooth spirometry deviceto be used on our clinician-focused web application and patient-focused mobile application.
+            </p>
+            <div className='relevant-skills'>{getSkillFormatting(['Javascript', 'React', 'React-Native', 'Redux', 'Node.js', 'MongoDB', 'HTML', 'CSS', 'AWS'])}</div>
+
+          <p>Spearheaded a project where I adapted our existing video call infrastructure to allow for the flow of data from the patient's bluetooth spirometry device to our patient's tablet, as well as our clinician's desktop web application.
+          </p>
+          <div className='relevant-skills'>{getSkillFormatting(['Javascript', 
+              'React', 'React-Native', 'Node.js', 'MongoDB', 'HTML', 'CSS'])}</div>
+
+
         </div>
       </div>
 
@@ -47,8 +66,15 @@ function WorkExperience() {
           <div className='sub-heading'>Sr. Research Associate, Nura Bio, South San Francisco, CA</div> <div className='sub-heading'>09/2018-07/2021</div>
         </div>
         <div className='job-description'>
-          <p>Built computer programs to increase the speed of data processing and analysis in support of drug discovery efforts. These efforts have saved multiple scientists hours of time that would have been spent manipulating data within excel, while eliminating all points of possible human error. These programs were developed using <strong>Python</strong> , <strong> NumPy</strong>, <strong> Pandas</strong>, and <strong>Seaborn</strong>.</p>
+          <p>Built programs to increase the speed of data processing and analysis in support of drug discovery efforts. These efforts have saved multiple scientists hours of time that would have been spent manipulating data within excel, while eliminating all points of possible human error. .</p>
+
+          <div className='relevant-skills'>{getSkillFormatting(['Python', 'NumPy', 'Pandas', 'Redux', 'Seaborn'])}</div>
+
+
           <p>Developed image analysis algorithms to extract data from fluorescence microscopy datasets. Utilized <strong>Python</strong>,<strong>ImageJ</strong>, <strong>OpenCV</strong>, and <strong>CellProfiler</strong>.</p>
+          <div className='relevant-skills'>{getSkillFormatting(['Python', 'ImageJ', 'OpenCV', 'CellProfiler'])}</div>
+
+
           <p>Leveraged automation in the pursuit of consistency and efficiency in cell cultures and cell-based assays using the ZEISS CD7 microscope, Incucyte S3, and Agilent Bravo Liquid Handler whenever relevant.</p>
           <p>Collaborated across teams regularly in support of drug discovery efforts.</p>
           <p>Aided in the design and positioning of the company's digital presence.</p>
@@ -58,35 +84,7 @@ function WorkExperience() {
 
       </div>
 
-      <div className="one-job">
-        <div className='job-block-header'>
-          <div className='sub-heading'>Lab Technician, Georgetown University, Washington, DC</div> <div className='sub-heading'>08/2017-08/2018</div>
-        </div>
-        <div className='job-description'>
-          <p>
-            Spearheaded a developmental toxicity study characterizing the effects of the anticonvulsants levetiracetam and phenobarbital on the rat brain. Neonatal exposure was characterized through the behavioral, histological, and molecular outcomes.</p>
-          <p>
-            Managed all animal specimens and laboratory supply ordering for the Forcelli lab, ensuring that experiments were able to run on a regular schedule without any unnecessary delay, allowing experimentation to proceed uninhibited.
-          </p>
-          <p>
-            Neurobehavioral testing, immunohistochemistry, degenerative silver staining, stereotaxic surgery, drug dosing, laboratory management, accurate note keeping, data analysis (Microsoft Excel, GraphPad Prism).
-          </p>
-          <p>Co-authored the following <a href="https://pubmed.ncbi.nlm.nih.gov/30261353/">publication</a></p>
-
-        </div>
-      </div>
-
-      <div className="one-job">
-        <div className='job-block-header'>
-          <div className='sub-heading'>Lab Technician, George Washington University, Washington, DC</div> <div className='sub-heading'>11/2014-08/2016</div>
-        </div>
-        <div className='job-description'>
-        <p>Performed chicken brain dissections on live tissue for use in ex vivo electrophysiology and immunohistochemistry </p>
-        <p>Optimized a protocol for chicken brain dissections for use in ex vivo electrophysiology </p>
-        <p>Built and optimized an ex vivo electrophysiology system for use by all laboratory members, reliably fixed the system when errors occurred to ensure experiment timelines went unimpeded.</p>
-        <p> Analyzed data from aforementioned experimental methods, and designed experiments to follow up on findings, in the pursuit of characterizing the tangential nucleus of the chicken midbrain.</p>
-      </div>
-      </div>
+      
 
       <div className='education-section'>
         <div className='heading-text'>
@@ -94,15 +92,15 @@ function WorkExperience() {
         </div>
         <div className='job-description'>
 
-        <div className='education-line'>
-          <p>Software Engineering Immersive Fellow, General Assembly</p> <p>09/2021</p>
-        </div>
-        <div className='education-line'>
-        <p>Master of Science, Anatomical and Translational Sciences, George Washington University</p> <p>06/2016</p>
-        </div>
-        <div className='education-line'>
-        <p>Bachelor of Science, Neuroscience, University of Pittsburgh</p> <p>08/2014</p>
-        </div>
+          <div className='education-line'>
+            <div>Software Engineering Immersive Fellow, General Assembly</div> <div>09/2021</div>
+          </div>
+          <div className='education-line'>
+            <div>Master of Science, Anatomical and Translational Sciences, George Washington University</div> <div>06/2016</div>
+          </div>
+          <div className='education-line'>
+            <div>Bachelor of Science, Neuroscience, University of Pittsburgh</div> <div>08/2014</div>
+          </div>
         </div>
       </div>
 

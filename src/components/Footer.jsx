@@ -9,14 +9,8 @@ function Footer() {
         <Link className='home-link' style={{ textDecoration: 'none' }} to="/" exact>
           <div className='footer-link'>Home</div>
         </Link>
-        <Link style={{ textDecoration: 'none' }} to="/about" >
-          <div className='footer-link'>About</div>
-        </Link>
       </div>
       <div className='footerMiddle'>
-        <Link style={{ textDecoration: 'none' }} to="/resume">
-          <div className='footer-link'>Resume</div>
-        </Link>
         <Link style={{ textDecoration: 'none' }} to="/work_experience">
           <div className='footer-link'>Work Experience</div>
         </Link>
@@ -34,9 +28,6 @@ function Footer() {
           </a>
 
         </div>
-
-
-        <h4 class="copyright" > © 2023 Greg Danko</h4>
       </div>
 
     </div>

@@ -50,7 +50,7 @@ h1{
 .footer {
   background-color: #101936;
   color: #049541;;
-  min-height:10vh;
+  min-height:5vh;
   width:100vw;
   display:flex;
   flex-flow:row nowrap;
@@ -221,6 +221,34 @@ h4 {
   padding-top:0.75em;
 }
 
+.heading-text-work-exp{
+  font-size: 2.2em;
+  font-weight:bold;
+  padding-top:0.75em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+}
+
+.resume-links-container{
+  display: flex;
+}
+
+.resume-link {
+  font-size: 15px;
+  padding:5px;
+  font-weight: 700;
+}
+.resume-link:hover{
+  font-style: italic;
+  color: #8891a3;
+}
+
+.relevant-skills{
+  margin-left:25px;
+}
+
 h2 {
     display: block;
     font-size: 1.5em;
@@ -233,8 +261,7 @@ h2 {
 }
 
 .one-job{
-  border-bottom: 1px solid #34431d;
-  margin-bottom:10px;
+ margin-bottom:15px;
   
 }
 .education-section{
@@ -286,6 +313,7 @@ h3 {
   flex-direction: row;
   width:100%;
   justify-content:space-between;
+  margin-bottom:10px;
 }
 
 .site-body-container{
